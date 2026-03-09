@@ -1,0 +1,6 @@
+<Solution>
+  <Folder Name="/Project Files/">
+    <File Path="Instructions.md" />
+  </Folder>
+  <Project Path="InternCandidateProject.csproj" />
+</Solution>
