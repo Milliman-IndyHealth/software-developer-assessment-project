@@ -113,7 +113,7 @@ Your task is to fix **4 bugs** and implement **3 features** in the application. 
    git push origin main
    ```
 2. **Grant repository access** — add the following GitHub users as collaborators on your fork so we can review your work:
-   - `michael-reisz`
+   - `mreisz7`
    - `tom-puckett`
 
    To add collaborators: go to your fork on GitHub → **Settings** → **Collaborators** → **Add people**.
