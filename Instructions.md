@@ -10,6 +10,8 @@ Before you begin, ensure you have the following installed on your machine:
 
 - [**Latest .NET 10 SDK**](https://dotnet.microsoft.com/en-us/download/dotnet/10.0)
 - [**Visual Studio 2026**](https://visualstudio.microsoft.com/) (Community edition or higher), [**Visual Studio Code**](https://code.visualstudio.com/) with the C# Dev Kit extension, or your preferred code/text editor.
+- [**Git**](https://git-scm.com/downloads) installed and available on your command line.
+- A [**GitHub account**](https://github.com/) (free tier is fine).
 
 > **Note:** If you do not have these tools installed or can't install them for some reason and need assistance, please reach out so that we can identify a resolution.
 
@@ -17,7 +19,20 @@ Before you begin, ensure you have the following installed on your machine:
 
 ## Getting Started
 
-1. **Open the project** in Visual Studio, Visual Studio Code, or your preferred code editor.
+1. **Fork the repository**
+   - Navigate to the project repository on GitHub: [**Milliman-IndyHealth/software-developer-assessment-project**](https://github.com/Milliman-IndyHealth/software-developer-assessment-project)
+   - Click the **Fork** button in the upper-right corner to create a copy under your own GitHub account.
+   - **Important:** Make sure your fork is set to **Private**. On the fork-creation page, check the option to make the repository private. If your GitHub plan does not support private forks, see the note below.
+
+   > **Note:** If you are unable to create a private fork, you may instead create a **new private repository** on your account, clone the original repo locally, change the remote to point to your new private repo, and push. Reach out if you need help with this.
+
+2. **Clone your fork** to your local machine:
+   ```
+   git clone https://github.com/<your-username>/software-developer-assessment-project.git
+   ```
+   Replace `<your-username>` with your GitHub username.
+
+3. **Open the project** in Visual Studio, Visual Studio Code, or your preferred code editor.
 
 2. **Run the application**:
    - **Visual Studio**: Press `F5` or click the green "Run" button.
@@ -91,7 +106,21 @@ Your task is to fix **4 bugs** and implement **3 features** in the application. 
 
 ## Submitting Your Work
 
-- Once you have completed the requested bug and feature requests, please delete the `obj` and `bin` folders, save, and zip up the project again and email it to `IndyRecruiting@milliman.com` and CC `michael.reisz@milliman.com` and `tom.puckett@milliman.com` for evaluation.
+1. **Commit and push** all of your changes to your forked repository:
+   ```
+   git add .
+   git commit -m "Completed assessment"
+   git push origin main
+   ```
+2. **Grant repository access** — add the following GitHub users as collaborators on your fork so we can review your work:
+   - `michael-reisz`
+   - `tom-puckett`
+
+   To add collaborators: go to your fork on GitHub → **Settings** → **Collaborators** → **Add people**.
+
+3. **Send a notification email** to `IndyRecruiting@milliman.com` (CC `michael.reisz@milliman.com` and `tom.puckett@milliman.com`) with:
+   - A link to your forked repository.
+   - Confirmation that you have granted access to the reviewers listed above.
 
 ---
 
@@ -128,7 +157,8 @@ Your submission will be evaluated on the following areas:
 - **Test your changes** after each bug fix or feature implementation
 - **Don't overthink it** — the tasks are designed to be straightforward
 - **Be able to explain how your application works** - In follow up conversations you will likely be asked about your submission
-- If something is unclear, make your best judgment and document in your email when returning the project
+- **Commit often** — small, well-described commits help us understand your thought process
+- If something is unclear, make your best judgment and document it in your notification email
 
 ---
 
