@@ -1,0 +1,70 @@
+# Default behavior
+* text=auto eol=lf
+
+# .NET / C#
+*.cs text eol=lf
+*.cshtml text eol=lf
+*.razor text eol=lf
+*.csproj text eol=lf
+*.sln text eol=lf
+*.slnx text eol=lf
+*.props text eol=lf
+*.config text eol=lf
+*.globalconfig text eol=lf
+
+# Web front-end
+*.js text eol=lf
+*.ts text eol=lf
+*.tsx text eol=lf
+*.css text eol=lf
+*.scss text eol=lf
+*.html text eol=lf
+*.htm text eol=lf
+*.svg text eol=lf
+
+# Data / config
+*.json text eol=lf
+*.xml text eol=lf
+*.yml text eol=lf
+*.yaml text eol=lf
+*.csv text eol=lf
+*.pgsql text eol=lf
+
+# Documentation
+*.md text eol=lf
+*.txt text eol=lf
+*.editorconfig text eol=lf
+
+# Scripting
+*.sh text eol=lf
+*.ps1 text eol=lf
+*.bat text eol=lf
+
+# Templates
+*.template text eol=lf
+
+# Git / CI
+*.gitignore text eol=lf
+*.gitattributes text eol=lf
+*.dockerignore text eol=lf
+
+# Denote binary files that shouldn't be modified
+*.png binary
+*.jpg binary
+*.gif binary
+*.ico binary
+*.pdf binary
+*.woff binary
+*.woff2 binary
+*.ttf binary
+*.dll binary
+*.exe binary
+*.zip binary
+*.gz binary
+*.tgz binary
+*.tar binary
+*.pbix binary
+*.docx binary
+*.xlsx binary
+*.xlsm binary
+*.vsdx binary
