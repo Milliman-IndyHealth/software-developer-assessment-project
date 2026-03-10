@@ -1,6 +1,6 @@
 # Intern Candidate Project Instructions
 
-Welcome! This project is part of your evaluation for our Software Developer Intern position. You will be working with a Blazor web application that has a few bugs to fix and features to implement. Please read these instructions carefully before getting started. Please feel free to use any AI tools that you would like, but make sure that you understand the changes that are being made so that you can explain them during follow up conversations.
+Welcome! This project is part of your evaluation for the Milliman Indianapolis Health practice's Software Developer Intern position. You will be working with a Blazor web application that has a few bugs to fix and features to implement. Please read these instructions carefully before getting started. Please feel free to use any AI tools that you would like, but make sure that you understand the changes that are being made so that you can explain them during follow up conversations.
 
 ---
 
